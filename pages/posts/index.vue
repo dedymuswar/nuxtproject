@@ -16,7 +16,8 @@ export default {
     loadedPosts(){
       return this.$store.getters.loadedPosts
     }
-  }
+  },
+  middleware: 'auth'
 }
 </script>
 

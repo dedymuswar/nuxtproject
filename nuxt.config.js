@@ -1,3 +1,4 @@
+const bodyParser = require('body-parser')
 
 export default {
   mode: 'universal',
@@ -62,8 +63,13 @@ export default {
   env: {
     baseUrl: process.env.BASE_URL || 'https://nuxt-project-basic.firebaseio.com',
     fbAPIKey: 'AIzaSyADAeRC_01zrt_B07PKHoUxTjm1_raEHBI'
-  }
+  },
   // router: {
   //   middleware: 'log'
   // }
+  serverMiddleware: [
+    bodyParser.json(),
+    '~/api'
+  ]
+
 }
