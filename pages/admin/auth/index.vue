@@ -19,13 +19,9 @@
 </template>
 
 <script>
-import AppControlInput from "~/Components/UI/AppControlInput"
 export default {
   name: "adminAuthPage",
   layout: "admin",
-  components: {
-    AppControlInput
-  },
   data() {
     return {
       email: "",
