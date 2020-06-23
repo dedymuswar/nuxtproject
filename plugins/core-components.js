@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 import PostList from "@/components/Posts/PostList"
-import AppControlInput from "~/Components/UI/AppControlInput"
+import AppControlInput from "@/components/UI/AppControlInput"
 import PostPreview from "@/components/Posts/PostPreview"
 import AdminPostForm from "@/components/Admin/AdminPostForm"
 
